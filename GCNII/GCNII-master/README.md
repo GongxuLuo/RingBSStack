@@ -17,16 +17,6 @@ This repository contains a PyTorch implementation of "Simple and Deep Graph Conv
 
 The `data` folder contains three benchmark datasets(Cora, Citeseer, Pubmed), and the `newdata` folder contains four datasets(Chameleon, Cornell, Texas, Wisconsin) from [Geom-GCN](https://github.com/graphdml-uiuc-jlu/geom-gcn). We use the same semi-supervised setting as [GCN](https://github.com/tkipf/gcn) and the same full-supervised setting as Geom-GCN. PPI can be downloaded from [GraphSAGE](http://snap.stanford.edu/graphsage/).
 
-## Results
-Testing accuracy summarized below.
-| Dataset | Depth |  Metric | Dataset | Depth |  Metric |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Cora       | 64 | 85.5  | Cham | 8  | 62.48 |
-| Cite       | 32 | 73.4  | Corn | 16 | 76.49 |
-| Pubm       | 16 | 80.3  | Texa | 32 | 77.84 |
-| Cora(full) | 64 | 88.49 | Wisc | 16 | 81.57 |
-| Cite(full) | 64 | 77.13 | PPI  | 9  | 99.56 |
-| Pubm(full) | 64 | 90.30 | obgn-arxiv | 16 | 72.74 |
 
 
 ## Usage
